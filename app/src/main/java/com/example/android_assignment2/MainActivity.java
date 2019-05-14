@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 waitMsgHandler.sendEmptyMessage(0);
 
+
+
+
             }
         };
 
