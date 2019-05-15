@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                long futureTime = (System.currentTimeMillis()+ 10000);//10 sec
+                long futureTime = (System.currentTimeMillis()+ 11000);//11 sec
 
                 while (System.currentTimeMillis()< futureTime){
 
