@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Handler waitMsgHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
-            TextView tv1 = (TextView) findViewById(R.id.tv1);
+            TextView tv1 =  findViewById(R.id.tv1);
             tv1.setText("Nice Job imran !");
         }
     };
